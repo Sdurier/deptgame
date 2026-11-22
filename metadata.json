@@ -1,0 +1,8 @@
+{
+  "name": "Atlas des Départements",
+  "description": "Application interactive pour localiser et nommer les 101 départements français, métropole et DROM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
