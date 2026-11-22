@@ -483,7 +483,7 @@ export default function App() {
             type="button"
             onClick={async () => {
               try {
-                const res = await fetch('/atlas-departements.html');
+                const res = await fetch('./atlas-departements.html');
                 if (!res.ok) return;
                 const blob = await res.blob();
                 const url = URL.createObjectURL(blob);

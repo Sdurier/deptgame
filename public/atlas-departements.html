@@ -14240,7 +14240,7 @@ function App() {
 					type: "button",
 					onClick: async () => {
 						try {
-							const res = await fetch("/atlas-departements.html");
+							const res = await fetch("./atlas-departements.html");
 							if (!res.ok) return;
 							const blob = await res.blob();
 							const url = URL.createObjectURL(blob);
@@ -14773,6 +14773,10 @@ function App() {
     display: block;
   }
 
+  .contents {
+    display: contents;
+  }
+
   .flex {
     display: flex;
   }
@@ -14855,10 +14859,6 @@ function App() {
 
   .min-h-0 {
     min-height: 0;
-  }
-
-  .min-h-\[460px\] {
-    min-height: 460px;
   }
 
   .min-h-screen {
